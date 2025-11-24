@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
-    printf("CMake fonctionne correctement.\n");
-    return 0;
+	cout << "Titrent x Delangue" << endl;
+	return 0;
 }
