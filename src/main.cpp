@@ -1,7 +1,6 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main() {
-	cout << "Hello, World!" << endl; // Encore 1 test !!!!!
-	return 0;
+    printf("CMake fonctionne correctement.\n");
+    return 0;
 }
