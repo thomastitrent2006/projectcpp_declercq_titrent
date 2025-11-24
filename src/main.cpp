@@ -1,7 +1,6 @@
 #include <iostream>
-using namespace std;
 
 int main() {
-	cout << "Titrent x Delangue" << endl;
-	return 0;
+    std::cout << "Test CMake final." << std::endl;
+    return 0;
 }
