@@ -3,7 +3,7 @@ project(ProjetCPP)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ProjetCPP src/main.cpp)
+add_executable(ProjetCPP src/main.cpp "include/Avion.h" "include/Trajectoire.h" "include/Piste.h" "include/PositionParking.h" "include/CCR.h" "include/TWR.h" "include/ZoneControle.h")
 
 target_include_directories(ProjetCPP PRIVATE
     ${CMAKE_SOURCE_DIR}/SFML/include
