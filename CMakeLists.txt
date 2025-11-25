@@ -1,16 +1,20 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.16)
+project(ProjetCPP)
 
-project(ProjetCPP LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
 
-# Utilise C++17 (change en C++20/23 si tu veux)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(ProjetCPP src/main.cpp)
 
-# Dossiers include/
-include_directories(include)
+target_include_directories(ProjetCPP PRIVATE
+    ${CMAKE_SOURCE_DIR}/SFML/include
+)
 
-# Récupère tous les .cpp du dossier src
-file(GLOB SRC_FILES src/*.cpp)
+target_link_directories(ProjetCPP PRIVATE
+    ${CMAKE_SOURCE_DIR}/SFML/lib
+)
 
-# Crée l'exécutable
-add_executable(ProjetCPP ${SRC_FILES})
+target_link_libraries(ProjetCPP PRIVATE
+    sfml-graphics
+    sfml-window
+    sfml-system
+)
