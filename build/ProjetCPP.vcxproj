@@ -387,6 +387,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\APP.cpp" />
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\TWR.cpp" />
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\DonneesPartagees.cpp" />
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Message.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

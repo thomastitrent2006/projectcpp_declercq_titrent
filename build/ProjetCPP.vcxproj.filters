@@ -48,6 +48,9 @@
     <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\ZoneControle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\thoma\Desktop\ProjetCPP\CMakeLists.txt" />
