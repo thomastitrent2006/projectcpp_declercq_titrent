@@ -4,11 +4,58 @@
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Poisiton3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Piste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Aeroport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\CCR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\APP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\TWR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\DonneesPartagees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Avion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Trajectoire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Piste.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\PositionParking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\CCR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\TWR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\ZoneControle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\thoma\Desktop\ProjetCPP\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F67B1821-CF21-32BE-8D1E-B904B2D239E6}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{4247D299-1D90-396D-9737-641CEF0C959C}</UniqueIdentifier>
     </Filter>

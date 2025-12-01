@@ -1,5 +1,5 @@
 // Vitesse.cpp
-#include "Vitesse.h"
+#include "../include/Vitesse.h"
 #include <cmath>
 
 double Vitesse::getNorme() const {

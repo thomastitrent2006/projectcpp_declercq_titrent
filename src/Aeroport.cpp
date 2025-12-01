@@ -1,10 +1,8 @@
 // Aeroport.cpp
 #include "../include/Aeroport.h"
-#include <algorithm>
 
-Aeroport::Aeroport(const std::string& code, const std::string& nom, const Position3D& pos)
-    : code(code), nom(nom), position(pos), rayonZoneApproche(50.0),
-    rayonCircuitAttente(10.0) {
+Aeroport::Aeroport(const std::string& code, const Position3D& pos)
+    : code(code), position(pos) {
 }
 
 void Aeroport::ajouterPiste(const Piste& piste) {
@@ -21,7 +19,7 @@ Piste* Aeroport::getPisteLibre() {
             return &piste;
         }
     }
-    return nullptr;  // Aucune piste libre
+    return nullptr;
 }
 
 PositionParking* Aeroport::getParkingLibre() {
@@ -30,19 +28,5 @@ PositionParking* Aeroport::getParkingLibre() {
             return &parking;
         }
     }
-    return nullptr;  // Aucun parking libre
-}
-
-PositionParking* Aeroport::getParkingPlusEloigne() {
-    PositionParking* plusEloigne = nullptr;
-    double distanceMax = 0.0;
-
-    for (auto& parking : parkings) {
-        if (parking.estOccupee() && parking.getDistancePiste() > distanceMax) {
-            distanceMax = parking.getDistancePiste();
-            plusEloigne = &parking;
-        }
-    }
-
-    return plusEloigne;
+    return nullptr;
 }
