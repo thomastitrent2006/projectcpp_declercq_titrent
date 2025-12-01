@@ -10,6 +10,8 @@ struct Vitesse {
     Vitesse(double vx = 0, double vy = 0, double vz = 0)
         : vx(vx), vy(vy), vz(vz) {
     }
+
+    double getNorme() const; // <-- déclaration manquante ajoutée
 };
 
 #endif

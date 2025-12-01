@@ -4,7 +4,7 @@
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Poisiton3D.cpp">
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Positon3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Piste.cpp">
@@ -23,6 +23,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\DonneesPartagees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\JSONLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\AffichageConsole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -49,6 +55,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\JSONLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\AffichageConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\FichierConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\GenerateurAleatoire.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

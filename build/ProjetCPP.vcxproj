@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -113,10 +113,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -171,10 +171,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,7 +201,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -229,10 +229,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,7 +259,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -286,10 +286,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\thoma\Desktop\ProjetCPP\SFML\include;C:\Users\thoma\Desktop\ProjetCPP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -380,7 +380,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\CCR.h" />
     <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\TWR.h" />
     <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\ZoneControle.h" />
-    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Poisiton3D.cpp" />
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Positon3D.cpp" />
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Piste.cpp" />
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\Aeroport.cpp" />
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\CCR.cpp" />
@@ -388,6 +388,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\TWR.cpp" />
     <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\DonneesPartagees.cpp" />
     <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\Message.h" />
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\JSONLogger.h" />
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\JSONLogger.cpp" />
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\AffichageConsole.h" />
+    <ClCompile Include="C:\Users\thoma\Desktop\ProjetCPP\src\AffichageConsole.cpp" />
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\FichierConfig.h" />
+    <ClInclude Include="C:\Users\thoma\Desktop\ProjetCPP\include\GenerateurAleatoire.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -3,9 +3,13 @@ project(ProjetCPP)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ProjetCPP src/main.cpp "include/Avion.h" "include/Trajectoire.h" "include/Piste.h" "include/PositionParking.h" "include/CCR.h" "include/TWR.h" "include/ZoneControle.h" "src/Positon3D.cpp" "src/Piste.cpp" "src/Aeroport.cpp" "src/CCR.cpp" "src/APP.cpp" "src/TWR.cpp" "src/DonneesPartagees.cpp" "include/Message.h")
+# Récupère tous les fichiers source .cpp dans src/
+file(GLOB_RECURSE PROJECT_SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
+
+add_executable(ProjetCPP ${PROJECT_SOURCES})
 
 target_include_directories(ProjetCPP PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/SFML/include
 )
 
@@ -18,3 +22,12 @@ target_link_libraries(ProjetCPP PRIVATE
     sfml-window
     sfml-system
 )
+
+# (Optionnel) Copier automatiquement les DLL SFML à côté de l'exécutable pour Windows
+if(WIN32)
+    add_custom_command(TARGET ProjetCPP POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${CMAKE_SOURCE_DIR}/SFML/bin"
+        $<TARGET_FILE_DIR:ProjetCPP>
+    )
+endif()
